@@ -1,0 +1,63 @@
+h2 {
+    color: red;
+}
+
+#title {
+    color: brown;
+}
+
+.highlight {
+    color: green;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+}
+
+.menu-link {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #e94560;
+    text-decoration: underline;
+}
+
+.alert-success {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.alert-error {
+    background-color: mistyrose;
+    color: crimson;
+}
+
+.paragraph {
+    color: #555555;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+.box {
+    width: 300px;
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+    border: 4px solid #2e7032;
+    border-radius: 50%;/*15px; */
+}
+
+button:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
