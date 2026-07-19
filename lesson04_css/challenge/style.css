@@ -1,102 +1,119 @@
 /* requirement 2 */
 * { 
-    margin: 0; 
-    padding: 0; 
+  margin: 0; 
+  padding: 0; 
 } 
 
 body {
-    background-color: black;
-    /* requirement 11 */
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+  background-color: #1e1e24;
+  /* requirement 11 */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #e0e0e6;
 }
 
 /* requirement 3 */
 a {
-    text-decoration: none;
-    color: yellow;
+  /* requirement 16, 1 of 2 */
+  text-decoration: none;
+  color: #ff4d4d;
+}
+
+/* requirement 16, 2 of 2 */
+a:hover {
+  text-decoration: underline;
 }
 
 /* requirement 4 */
 .skill-tag {
-    color: aqua;
-    /*requirement 13 */
-    font-weight: 500;
-    margin: 0 10px;
+  color: #ff4d4d;
+  /*requirement 22 */
+  font-weight: 700;
+  margin: 0 10px;
 }
 
 /* requirement 5 */
 .sub-title {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 /* requirement 6 */
 #profile-header {
-    background-color:#2a2727;
-    padding: 10px;
-    text-align: center;
+  background-color: #2a2a30;
+  padding: 10px;
+  /* requirement 15 */
+  text-align: center;
 }
 
 /* requirement 7 */
 h1, h2 {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* requirement 8 */
 #contact-section a {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 /* requirement 9 */
 .skill-tag:hover {
-    color: darkcyan;
+  color: #ff8080;
+  cursor: pointer;
 }
 
-/* requirement 10 */
 .full-name {
-    color: hsl(123, 100%, 50%);
+  color: #ff4d4d;
 }
 
 /* requirement 12 */
 h1 {
-    font-size: 32px;
+  font-size: 32px;
 }
 h2 {
-    font-size: 24px;
+  font-size: 24px;
+  /* requirement 13 */
+  font-weight: bold;
 }
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* requirement 14 */
 .favorite-quote { 
-    font-style: italic; 
+  font-style: italic; 
 }
 
-.tagline {
-
-}
-
-#about-section {
-
-}
-
+/* requirement 17 */
 .bio {
-
+  line-height: 1.5;
 }
 
-#skills-section {
-
+/* requirement 18 */
+.tagline {
+  letter-spacing: 2px; 
+  text-transform: uppercase;
 }
 
+/* requirement 21 */
+#quote-section, #contact-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* requirement 24 */
+#contact-section a:hover {
+  /* requirement 10 */
+  background-color: rgb(58, 58, 66);
+}
+
+/* requirement 23 */
 #quote-section {
-
-}
-
-.contact-link {
-
+  color: hsl(288, 100%, 70%);
+  font-weight: bold;
 }
 
 #profile-footer {
-
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #2a2a30;
 }
